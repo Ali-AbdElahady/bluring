@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Ubontu', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*height: 100vh;*/
+	overflow: hidden;
+	margin: 0;
+}	
+.bg{
+	background-image: url('../images/bg-coffee3.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200vh;
+	height: 100vh;
+	z-index: -1;
+	filter: blur(30px);
+
+}
+.loading-text{
+	margin: 8% 44%;
+	font-size: 50px;
+	color: white;
+}
+div {
+    position: absolute;
+    top: 35%;
+    left: 4%;
+}
+p.hd {
+    color: white;
+    font-size: 32px;
+    width: 26%;
+    font-weight: 700;
+}
+p.quist {
+    color: white;
+    width: 44%;
+    font-size: 20px;
+}
+button.btn1 {
+    margin-left: 4%;
+}
+button {
+    padding: 10px 15px;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+}
+button:hover{
+	background-color: inherit;
+	border-radius: 15px;
+	border: white solid 1px;
+	cursor: pointer;
+}
